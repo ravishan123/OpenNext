@@ -1,11 +1,12 @@
 {
   "name": "openNext",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
-  "scripts": {
+ "scripts": {
+    "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
