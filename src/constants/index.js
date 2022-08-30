@@ -1,4 +1,25 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  send,
+  shield,
+  star,
+  nodejsIcon,
+  flutterIcon,
+  dotNetIcon,
+  awsIcon,
+  reactjsIcon,
+  mongoDbIcon,
+  mySqlIcon,
+  htmlIcon,
+  jsIcon,
+
+} from "../assets";
 
 export const navLinks = [
   {
@@ -180,18 +201,40 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: nodejsIcon,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: dotNetIcon,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: awsIcon,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: reactjsIcon,
   },
+  {
+    id: "client-5",
+    logo: mongoDbIcon,
+  },
+  {
+    id: "client-6",
+    logo: htmlIcon,
+  },
+  {
+    id: "client-7",
+    logo: flutterIcon,
+  },
+  {
+    id: "client-8",
+    logo: mySqlIcon,
+  },
+  {
+    id: "client-9",
+    logo: jsIcon,
+  }
+
+ 
 ];

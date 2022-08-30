@@ -25,6 +25,27 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import home from "./home.svg";
 
+const nodejsIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+const dotNetIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+const awsIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+const reactjsIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+const mongoDbIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+const flutterIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+const mySqlIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+const htmlIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+const jsIcon ="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+export {
+  nodejsIcon,
+  dotNetIcon,
+  awsIcon,
+  reactjsIcon,
+  mongoDbIcon,
+  flutterIcon,
+  mySqlIcon,
+  htmlIcon,
+  jsIcon
+}
+
 export {
   airbnb,
   bill,
