@@ -13,16 +13,16 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
-    </div>
-    
+    </div>    
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
+        {/* <Stats />
         <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
+        <Billing />*/}
+        {/* <CardDeal />
+        <Testimonials /> */}
+
+        <Clients />  
         <CTA />
         <Footer />
       </div>
