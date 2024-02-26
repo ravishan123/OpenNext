@@ -11,6 +11,7 @@ import {
   Testimonials,
   Hero,
 } from "./components";
+import Button from "./components/Button";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -19,6 +20,7 @@ const App = () => (
         <Navbar />
       </div>
     </div>
+    <Button>Hello Hutto</Button>
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
