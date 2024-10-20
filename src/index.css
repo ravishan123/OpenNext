@@ -14,7 +14,7 @@
     #f9d3c6 20%,
     #ff7153 60%
   );
-   --orange-gradient-2: linear-gradient(
+  --orange-gradient-2: linear-gradient(
     144.39deg,
     #ffffff -50%,
     #facbbc 20%,
@@ -120,6 +120,10 @@
   background: var(--orange-gradient);
   box-shadow: var(--card-shadow);
 }
+.feature-card {
+  background: var(--orange-gradient);
+  box-shadow: var(--card-shadow);
+}
 
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
@@ -127,6 +131,7 @@
 
 .feedback-card {
   background: transparent;
+    background: var(--orange-gradient-2);
 }
 
 .feedback-card:hover {

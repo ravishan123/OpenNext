@@ -18,7 +18,6 @@ import {
   mySqlIcon,
   htmlIcon,
   jsIcon,
-
 } from "../assets";
 
 export const navLinks = [
@@ -27,16 +26,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "about",
+    title: "About Us",
   },
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -44,23 +47,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Custom Software Development",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We deliver tailored software solutions to meet your business needs, leveraging the latest technologies.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Secure Cloud Solutions",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Our cloud experts ensure your data and applications are securely deployed with best practices.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Web & Mobile Development",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We create responsive, high-performing web and mobile applications for various platforms.",
   },
 ];
 
@@ -68,25 +71,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Their custom software solutions helped streamline our operations, saving us time and resources.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "CEO, TechCorp",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "We transformed our infrastructure thanks to their expert cloud consulting services.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "CTO, InnovateX",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Their web and mobile development expertise brought our ideas to life quickly and efficiently.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Product Manager, StartUp Hub",
     img: people03,
   },
 ];
@@ -94,82 +97,86 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: ".3800",
+    title: "Active Clients",
+    value: "150+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: ".230",
+    title: "Trusted Companies",
+    value: "80+",
   },
   {
     id: "stats-3",
-    title: "Projects Completed",
-    value: "$23",
+    title: "Projects Delivered",
+    value: "250+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Services",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Software Development",
+        link: "https://yourwebsite.com/software-development",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Cloud Consulting",
+        link: "https://yourwebsite.com/cloud-consulting",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Web Development",
+        link: "https://yourwebsite.com/web-development",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Mobile Development",
+        link: "https://yourwebsite.com/mobile-development",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "IT Strategy",
+        link: "https://yourwebsite.com/it-strategy",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Company",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "About Us",
+        link: "https://yourwebsite.com/about-us",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Careers",
+        link: "https://yourwebsite.com/careers",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://yourwebsite.com/blog",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Contact",
+        link: "https://yourwebsite.com/contact",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Support",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Help Center",
+        link: "https://yourwebsite.com/help-center",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "FAQs",
+        link: "https://yourwebsite.com/faqs",
+      },
+      {
+        name: "Privacy Policy",
+        link: "https://yourwebsite.com/privacy-policy",
+      },
+      {
+        name: "Terms of Service",
+        link: "https://yourwebsite.com/terms-of-service",
       },
     ],
   },
@@ -179,22 +186,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/yourbusiness/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/yourbusiness/",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/yourbusiness/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/yourbusiness/",
   },
 ];
 
@@ -234,7 +241,5 @@ export const clients = [
   {
     id: "client-9",
     logo: jsIcon,
-  }
-
- 
+  },
 ];
